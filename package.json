@@ -13,6 +13,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "zhc",
-  "license": "MIT"
+  "author": "zc3hd",
+  "license": "ISC"
 }
