@@ -4,8 +4,8 @@
 // 已经配置在github上的 cli 地址名
 var arr = [
   "cli-gulp-epr",
-  "test_1",
-  "test_2"
+  "cli-wpkEpr-mpa",
+  "test"
 ];
 
 

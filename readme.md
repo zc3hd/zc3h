@@ -20,9 +20,9 @@ Usage : zc3h test_2 <pathname>
         test_2 源码地址:https://github.com/zc3hd/test_2
 ```
 
+* `<pathname>`：路径地址，下载架子的路径地址；比如 `.`为当前目录
 
-
-## Use
+## Config
 
 * 把所有已经已经在 `github`上有地址的名称，形成架子或工具的`name`配置到 `bin/index`
 
@@ -30,8 +30,8 @@ Usage : zc3h test_2 <pathname>
 // 配置：已经在 github上有地址的名称
 var arr = [
   "cli-gulp-epr",
-  "test_1",
-  "test_2"
+  "cli-wpkEpr-mpa",
+  "test"
 ];
 ```
 
@@ -39,7 +39,10 @@ var arr = [
 
 ## Done
 
-* `cli-gulp-epr`
+* `cli-gulp-epr`：【`gulp+express`】mpa多页面应用cli；[more info](https://github.com/zc3hd/cli-gulp-epr)
+* `cli-wpkEpr-mpa`：【`webpack+express`】mpa多页面应用cli；[more info](https://github.com/zc3hd/cli-wpkEpr-mpa)
+
+
 
 
 
