@@ -10,8 +10,8 @@
 $ zc3h
 *** Welcome AV8day ***
 
-Usage : zc3h cli-gulp <pathname>
-        cli-gulp 源码地址:https://github.com/zc3hd/cli-gulp
+Usage : zc3h cli-gulp-epr <pathname>
+        cli-gulp 源码地址:https://github.com/zc3hd/cli-gulp-epr
 
 Usage : zc3h test_1 <pathname>
         test_1 源码地址:https://github.com/zc3hd/test_1
@@ -29,7 +29,7 @@ Usage : zc3h test_2 <pathname>
 ```js
 // 配置：已经在 github上有地址的名称
 var arr = [
-  "cli-gulp",
+  "cli-gulp-epr",
   "test_1",
   "test_2"
 ];
@@ -39,7 +39,7 @@ var arr = [
 
 ## Done
 
-* `cli-gulp`
+* `cli-gulp-epr`
 
 
 
