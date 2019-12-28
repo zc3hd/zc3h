@@ -5,7 +5,7 @@
 var arr = [
   "cli-gulp-epr",
   "cli-wpkEpr-mpa",
-  "test"
+  "cli-wpkEpr-spa"
 ];
 
 
@@ -31,7 +31,7 @@ program
   .parse(process.argv); // 解析：命令行输入的路径参数
 
 
-// 引导函数
+// 引导信息
 program.help = function() {
   console.log("*** Welcome AV8day ***");
   console.log("");
@@ -51,6 +51,8 @@ if (program.args.length === 0) {
 }
 // 命令行：有输入的路径参数，执行命令;
 else {
+
+  program.args[1] = program.args[1] ? program.args[1] : "./";
   // 
   cmd.exec(`git clone https://github.com/zc3hd/${program.args[0]}.git ${program.args[1]}`,
     function(error, stdout, stderr) {
