@@ -12,6 +12,9 @@ var arr = [
 
 // 定义命令行工具
 var program = require('commander');
+// 文件
+var fs = require('fs');
+var path = require("path");
 // 进程
 var cmd = require('child_process');
 // 读取package.json里面的版本号
@@ -33,13 +36,25 @@ program
 
 // 引导信息
 program.help = function() {
-  console.log("*** Welcome AV8day ***");
+
+
+  console.log("*** zc3h 使用说明 ***");
   console.log("");
   arr.forEach(function(item) {
-    console.log(`Usage : ${_g_name} ${item} <pathname>`);
+    console.log(`命令行输入 : ${_g_name} ${item} <pathname>`);
     console.log(`        ${item} 源码地址:https://github.com/zc3hd/${item}`);
     console.log("");
   });
+
+
+  fs
+    .readFile(path.resolve(__dirname, '../readme.md'), 'utf8', function(err, data) {
+      if (err) throw err;
+      data = data.split("## Tips");
+      data = data[1];
+      console.log("**********************************************************");
+      console.log(data);
+    });
 
 }
 
