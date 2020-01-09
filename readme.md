@@ -43,8 +43,8 @@ var arr = [
 ## Done
 
 * `cli-gulp-epr`：【`gulp+express`】mpa多页面应用cli；[more info](https://github.com/zc3hd/cli-gulp-epr)
+* `cli-gulp-koa`：【`gulp+koa`】mpa多页面应用cli；[more info](https://github.com/zc3hd/cli-gulp-koa)
 * `cli-wpkEpr-mpa`：【`webpack+express`】mpa多页面应用cli；[more info](https://github.com/zc3hd/cli-wpkEpr-mpa)
-
 * `cli-wpkEpr-spa`：【`webpack+express`】vue spa多页面应用cli；[more info](https://github.com/zc3hd/cli-wpkEpr-spa)
 
 

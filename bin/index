@@ -4,6 +4,7 @@
 // 已经配置在github上的 cli 地址名
 var arr = [
   "cli-gulp-epr",
+  "cli-gulp-koa",
   "cli-wpkEpr-mpa",
   "cli-wpkEpr-spa"
 ];
@@ -47,6 +48,7 @@ program.help = function() {
   });
 
 
+  // 项目tips选择
   fs
     .readFile(path.resolve(__dirname, '../readme.md'), 'utf8', function(err, data) {
       if (err) throw err;
