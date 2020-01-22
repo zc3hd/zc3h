@@ -50,13 +50,14 @@ program.help = function() {
 
   // 项目tips选择
   fs
-    .readFile(path.resolve(__dirname, '../readme.md'), 'utf8', function(err, data) {
-      if (err) throw err;
-      data = data.split("## Tips");
-      data = data[1];
-      console.log("**********************************************************");
-      console.log(data);
-    });
+    .readFile(path.resolve(__dirname, '../readme.md'), 'utf8',
+      function(err, data) {
+        if (err) throw err;
+        data = data.split("## Tips");
+        data = data[1];
+        console.log("**********************************************************");
+        console.log(data);
+      });
 
 }
 
